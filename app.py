@@ -7,6 +7,7 @@ coefficients = {
     "Voirie / parking": 0.90,
     "Pavés / dalles": 0.60,
     "Pelouse / espace vert": 0.15,
+    "Toiture végétalisée": 0.4,
 }
 
 surface = st.selectbox("Type de surface", list(coefficients.keys()))
